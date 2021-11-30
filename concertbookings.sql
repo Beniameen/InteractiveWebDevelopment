@@ -64,7 +64,6 @@ CREATE TABLE `attendees` (
 
 INSERT INTO `attendees` (`mobilePhone`, `firstname`, `DOB`, `surname`, `password`, `cancelmessage`) VALUES
 ('0432914143', 'dodo', '2000-06-21', 'lolo', '12345678', ''),
-('0434833920', 'margret', '1991-10-01', 'beniameen', '12345678', ''),
 ('5331330', 'lucy', '2020-08-14', 'jack', '12345678', ''),
 ('53486008', 'lolo', '2002-01-01', 'nabil', '123456789', ''),
 ('55006677', 'fifi', '2020-07-30', 'adam', '12345678', ''),
@@ -110,8 +109,7 @@ CREATE TABLE `bookings` (
 --
 
 INSERT INTO `bookings` (`booking_id`, `mobilePhone`, `concert_id`) VALUES
-(427, '0434833920', 127),
-(428, '0434833920', 133),
+
 (431, '5331330', 133),
 (446, '55006677', 202),
 (447, '55006677', 203),
@@ -126,8 +124,7 @@ INSERT INTO `bookings` (`booking_id`, `mobilePhone`, `concert_id`) VALUES
 (462, '7636656', 202),
 (463, '94875665466', 202),
 (464, '94875665466', 196),
-(467, '0434833920', 196),
-(468, '0434833920', 203);
+
 
 -- --------------------------------------------------------
 
